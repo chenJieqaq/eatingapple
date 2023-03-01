@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="enterprise_business" />
+        <module name="enterprise_system" />
+        <module name="enterprise_common" />
+        <module name="enterprise-tools" />
+        <module name="enterprise-logging" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="enterprise" options="-parameters" />
+      <module name="enterprise-logging" options="-parameters" />
+      <module name="enterprise-tools" options="-parameters" />
+      <module name="enterprise_business" options="-parameters" />
+      <module name="enterprise_common" options="-parameters" />
+      <module name="enterprise_system" options="-parameters" />
+    </option>
+  </component>
+</project>
