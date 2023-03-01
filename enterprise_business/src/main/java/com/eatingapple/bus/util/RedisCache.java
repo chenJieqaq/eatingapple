@@ -1,4 +1,4 @@
-package com.eatingapple.util;
+package com.eatingapple.bus.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.BoundSetOperations;

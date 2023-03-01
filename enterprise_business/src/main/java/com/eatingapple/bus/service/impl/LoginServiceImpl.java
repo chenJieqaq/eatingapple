@@ -1,11 +1,11 @@
-package com.eatingapple.service.impl;
+package com.eatingapple.bus.service.impl;
 
+import com.eatingapple.bus.service.LoginServcie;
+import com.eatingapple.bus.util.JwtUtil;
+import com.eatingapple.bus.util.LoginUser;
+import com.eatingapple.bus.util.RedisCache;
+import com.eatingapple.bus.util.ResponseResult;
 import com.eatingapple.entity.User;
-import com.eatingapple.service.LoginServcie;
-import com.eatingapple.util.JwtUtil;
-import com.eatingapple.util.LoginUser;
-import com.eatingapple.util.RedisCache;
-import com.eatingapple.util.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

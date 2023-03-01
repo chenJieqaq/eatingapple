@@ -1,4 +1,4 @@
-package com.eatingapple.util;
+package com.eatingapple.bus.util;
 
 import com.eatingapple.entity.User;
 import lombok.AllArgsConstructor;

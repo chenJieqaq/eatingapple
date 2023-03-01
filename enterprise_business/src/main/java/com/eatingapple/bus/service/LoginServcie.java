@@ -1,7 +1,7 @@
-package com.eatingapple.service;
+package com.eatingapple.bus.service;
 
+import com.eatingapple.bus.util.ResponseResult;
 import com.eatingapple.entity.User;
-import com.eatingapple.util.ResponseResult;
 
 public interface LoginServcie {
     ResponseResult login(User user);

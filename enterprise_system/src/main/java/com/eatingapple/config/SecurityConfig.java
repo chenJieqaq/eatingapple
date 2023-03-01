@@ -1,6 +1,6 @@
 package com.eatingapple.config;
 
-import com.eatingapple.filter.JwtAuthenticationTokenFilter;
+import com.eatingapple.bus.filter.JwtAuthenticationTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;

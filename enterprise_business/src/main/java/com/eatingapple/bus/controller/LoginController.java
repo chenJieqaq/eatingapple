@@ -1,8 +1,8 @@
-package com.eatingapple.controller;
+package com.eatingapple.bus.controller;
 
+import com.eatingapple.bus.service.LoginServcie;
+import com.eatingapple.bus.util.ResponseResult;
 import com.eatingapple.entity.User;
-import com.eatingapple.service.LoginServcie;
-import com.eatingapple.util.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

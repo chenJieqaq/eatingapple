@@ -1,8 +1,8 @@
-package com.eatingapple.filter;
+package com.eatingapple.bus.filter;
 
-import com.eatingapple.util.JwtUtil;
-import com.eatingapple.util.LoginUser;
-import com.eatingapple.util.RedisCache;
+import com.eatingapple.bus.util.JwtUtil;
+import com.eatingapple.bus.util.LoginUser;
+import com.eatingapple.bus.util.RedisCache;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
