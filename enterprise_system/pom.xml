@@ -60,27 +60,21 @@
 <!--            <artifactId>mysql-connector-java</artifactId>-->
 <!--            <version>8.0.15</version>-->
 <!--        </dependency>-->
-        <dependency>
-            <groupId>com.eatingapple</groupId>
-            <artifactId>enterprise_common</artifactId>
-             <version>1.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.eatingapple</groupId>
-                    <artifactId>enterprise_common</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.eatingapple</groupId>-->
+<!--            <artifactId>enterprise_common</artifactId>-->
+<!--             <version>1.1</version>-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>com.eatingapple</groupId>-->
+<!--                    <artifactId>enterprise_common</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.eatingapple</groupId>
             <artifactId>enterprise_business</artifactId>
             <version>1.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.eatingapple</groupId>
-                    <artifactId>enterprise_business</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
 
@@ -97,6 +91,7 @@
     </dependencies>
 
 
+    <!-- 打包 -->
     <build>
         <plugins>
             <plugin>

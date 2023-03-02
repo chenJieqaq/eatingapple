@@ -1,1 +1,3 @@
+com\eatingapple\config\CorsConfig.class
 com\eatingapple\AppRun.class
+com\eatingapple\config\SecurityConfig.class
