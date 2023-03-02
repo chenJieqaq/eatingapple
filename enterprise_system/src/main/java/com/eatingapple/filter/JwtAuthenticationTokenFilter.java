@@ -1,4 +1,4 @@
-package com.eatingapple.bus.filter;
+package com.eatingapple.filter;
 
 import com.eatingapple.bus.util.JwtUtil;
 import com.eatingapple.bus.util.LoginUser;
