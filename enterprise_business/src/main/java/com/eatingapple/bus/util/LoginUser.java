@@ -1,6 +1,6 @@
 package com.eatingapple.bus.util;
 
-import com.eatingapple.entity.User;
+import com.eatingapple.bus.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

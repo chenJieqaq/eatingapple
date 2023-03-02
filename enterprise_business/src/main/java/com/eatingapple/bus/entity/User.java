@@ -1,4 +1,4 @@
-package com.eatingapple.entity;
+package com.eatingapple.bus.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;

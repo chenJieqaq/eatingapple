@@ -2,8 +2,8 @@ package com.eatingapple.bus.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.eatingapple.bus.util.LoginUser;
-import com.eatingapple.entity.User;
-import com.eatingapple.mapper.UserMapper;
+import com.eatingapple.bus.entity.User;
+import com.eatingapple.bus.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

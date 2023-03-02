@@ -5,7 +5,7 @@ import com.eatingapple.bus.util.JwtUtil;
 import com.eatingapple.bus.util.LoginUser;
 import com.eatingapple.bus.util.RedisCache;
 import com.eatingapple.bus.util.ResponseResult;
-import com.eatingapple.entity.User;
+import com.eatingapple.bus.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

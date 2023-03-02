@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication(scanBasePackages = {"com.eatingapple"})//排除掉数据库自动加载
-@MapperScan("com.eatingapple.mapper")
+@MapperScan("com.eatingapple.bus.mapper")
 public class AppRun {
 
     public static void main(String[] args) {
