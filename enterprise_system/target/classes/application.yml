@@ -7,15 +7,22 @@ spring:
     username: root
     password: 12345
     driver-class-name: com.mysql.cj.jdbc.Driver
-
-
-
+  redis:
+    host: 173.82.131.169
+    port: 6379  #可不配，因为底层默认值为6379
+    password: 12345
+    database: 0
 mybatis:
   mapper-locations:
     - classpath:mapper/*.xml
     - classpath*:com/**/mapper/*.xml
 
-redis:
-    url: 173.82.131.169
-    database: 0
-    password: 12345
+#redis:
+#    url: 173.82.131.169
+#    database: 0
+#    password: 12345
+#redis:
+#   url: 173.82.131.169
+#   database: 0
+#   host: root
+#   password: 12345
