@@ -18,3 +18,4 @@ mybatis:
 redis:
     url: 173.82.131.169
     database: 0
+    password: 12345
